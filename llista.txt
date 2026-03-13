@@ -1,0 +1,55 @@
+# LLISTA DE LA COMPRA MENSUAL
+# ─────────────────────────────────────────────────────
+# Format: NOM PRODUCTE xQUANTITAT
+# Exemple: Llet semidesnatada 6x1L x2
+# Les línies que comencen amb # s'ignoren
+# ─────────────────────────────────────────────────────
+
+BERGADER Formatge blau en tros x6
+BONPREU Abrillantador per a rentavaixelles x1
+BONPREU Arròs extra x5
+BONPREU Base rodona de Pasta de Full x3
+BONPREU Bastonets de pa x1
+BONPREU Bastonets higiènics 100% cotó x1
+BONPREU Cafè en gra torrat natural x1
+BONPREU Detergent en gel per a rentavaixella 36 dosis x1
+BONPREU Detergent líquid frescor blava 46 dosis x1
+BONPREU Formatge Parmigiano Reggiano x1
+BONPREU Formatge ratllat Emmental x7
+BONPREU Formatge ratllat mozzarella x6
+BONPREU Galetes XXL farcides crema xocolata x3
+BONPREU Galetes cookies xocolata x3
+BONPREU Llet semidesnatada 6x1L x2
+BONPREU Macarrons gruixuts x1
+BONPREU Menta poliol x1
+BONPREU Nata líquida per cuinar x2
+BONPREU Nou moscada molta x1
+BONPREU Nous sense closca crues x2
+BONPREU Oli d'oliva suau x1
+BONPREU Oli d'oliva verge extra x1
+BONPREU Oli refinat de gira-sol x1
+BONPREU Olives farcides d'anxova x1
+BONPREU Orenga fulla x1
+BONPREU Pa ratllat amb all i julivert 500g x1
+BONPREU Paper de forn x1
+BONPREU Paper higiènic 2 capes 12un x1
+BONPREU Pèsols fins x1
+BONPREU Tallarines x6
+BONPREU Te verd x1
+BONPREU Tomàquet fregit x2
+BONPREU Tomàquet triturat extra x5
+BONPREU Tortilles de blat x3
+BUITONI Massa per crestes i postres x4
+COLACAO Cacau soluble 0% sucres afegits x1
+DAURA Cervesa apta per celíacs en llauna x20
+GIRONA Farina de Blat Km0 x3
+HELLMANN'S Maionesa x1
+HERBATURAL Suavitzant oli d'ametlles dolces x1
+ISMAX Paper de cuina ecològic reciclat 2un x1
+LA COLLITA Ceba seca malla 2kg x1
+LA COLLITA Patata blanca bossa 4kg x1
+SCHWEPPES Refresc tònica en llauna x6
+SUCREBO Sucre blanc x1
+WE NATURAL Puré de patates x1
+YATEKOMO Fideus orientals amb pollastre x4
+YATEKOMO Fideus orientals clàssic x4
