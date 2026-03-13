@@ -1,52 +1,76 @@
-# 🛒 Comparador de Preus Supermercats
+╔══════════════════════════════════════════════════════════════╗
+║         COMPARADOR DE PREUS SUPERMERCATS  v7.0               ║
+║         (C) 2026  -  Masnou, Catalunya                       ║
+╚══════════════════════════════════════════════════════════════╝
 
-Script Python que cada mes llegeix una llista de la compra, busca preus a 4 supermercats online i genera un Excel comparatiu indicant on comprar cada producte per estalviar al màxim.
+  ■ DESCRIPCIO DEL PROGRAMA
+  ─────────────────────────
+  Llegeix una llista de la compra (LLISTA.TXT), consulta preus
+  a 4 supermercats online i genera un Excel comparatiu amb
+  el supermercat mes barat per cada producte.
 
-## Supermercats
 
-| Supermercat | Ports | Ports gratis a partir de |
-|-------------|-------|--------------------------|
-| Mercadona | 7.90€ | — |
-| BonPreu | 4.90€ | — |
-| Alcampo | 4.90€ | 49€ |
-| Caprabo | 4.90€ | 60€ |
+  ■ SUPERMERCATS SUPORTATS
+  ────────────────────────
+  > MERCADONA   ports: 7.90€   ports gratis: NO
+  > BONPREU     ports: 4.90€   ports gratis: NO
+  > ALCAMPO     ports: 4.90€   ports gratis: +49.00€
+  > CAPRABO     ports: 4.90€   ports gratis: +60.00€
 
-## Requisits
 
-```bash
-pip install playwright openpyxl
-playwright install chromium
-```
+  ■ REQUISITS DEL SISTEMA
+  ───────────────────────
+  - Python 3.10 o superior
+  - Connexio a Internet
 
-## Ús
 
-1. Edita `llista.txt` amb els productes que vols comprar
-2. Executa l'script:
+  ■ INSTALLACIO
+  ─────────────
+  C:\> pip install -r requirements.txt
+  C:\> playwright install chromium
 
-```bash
-python comparador_preus_v7.py
-```
 
-O fes doble clic a `executar.bat` (Windows).
+  ■ EXECUCIO
+  ──────────
+  C:\> python comparador_preus_v7.py
 
-L'script genera un Excel `comparativa_preus_YYYYMMDD.xlsx` amb 3 fulls:
+       -- o be --
 
-- **Comparativa** — tots els productes amb preus per supermercat
-- **Per Supermercat** — agrupat per on has d'anar a comprar
-- **Resum Estalvi** — comparativa de costos totals
+  Fes doble clic a EXECUTAR.BAT
 
-## Format llista.txt
 
-```
-# Les línies amb # s'ignoren
-MARCA Nom del producte xQUANTITAT
+  ■ FORMAT DE LLISTA.TXT
+  ──────────────────────
+  # Les linies amb # s'ignoren
+  # Format: MARCA Nom del producte xQUANTITAT
 
-# Exemples:
-BONPREU Arròs extra x5
-HELLMANN'S Maionesa x1
-DAURA Cervesa apta per celíacs en llauna x20
-```
+  BONPREU Arros extra x5
+  HELLMANN'S Maionesa x1
+  DAURA Cervesa apta per celiacs en llauna x20
 
-## Temps d'execució
 
-~10-20 minuts per 48 productes (fa pauses entre cerques per no ser blocat).
+  ■ FITXERS GENERATS
+  ──────────────────
+  comparativa_preus_YYYYMMDD.xlsx
+
+    Full 1 │ COMPARATIVA    tots els productes i preus
+    Full 2 │ PER SUPERMERCAT agrupat per on comprar
+    Full 3 │ RESUM ESTALVI  comparativa costos totals
+
+
+  ■ TEMPS D'EXECUCIO
+  ──────────────────
+  ~10-20 minuts per 48 productes
+  (pauses entre cerques per evitar bloqueig)
+
+
+  ■ AVIS
+  ──────
+  Aquest programa utilitza Playwright per navegar pels webs
+  dels supermercats. Els preus poden variar en qualsevol
+  moment. Verifica sempre abans de fer la comanda.
+
+
+══════════════════════════════════════════════════════════════
+  Prem qualsevol tecla per continuar . . . _
+══════════════════════════════════════════════════════════════
